@@ -6,7 +6,7 @@ Esteganografia é a técnica utilizada para esconder mensagens dentro de arquivo
 
 Existem vários tipos de esteganografia, imagem, texto, video, e neste caso, esteganografia em áudio. Dentro da esteganografia em áudio, existem várias técnicas.
 
-Este código implementa a técnica LSB (least significant bit)
+Este código implementa a técnica LSB (least significant bit).
 
 ## Execução
 
@@ -18,7 +18,7 @@ Neste repositório se encontra um arquivo chamado `audio.wav` que contém um tre
 
 ### Menu interativo
 
-Pare executar em modo interativo, basta executar o arquivo sem passar nenhum argumento:
+Para executar em modo interativo, basta executar o arquivo sem passar nenhum argumento:
 ```bash
 python3 steganography.py
 ```
@@ -35,7 +35,7 @@ Nesta opção, o programa requisita o nome do arquivo `wav` para extrair a mensa
 
 #### 0) Sair
 
-Para o loopgin e encerra o programa.
+Para o looping e encerra o programa.
 
 ### Linha de comanda
 
