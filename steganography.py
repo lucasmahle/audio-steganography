@@ -2,7 +2,6 @@ import sys
 import wave
 
 EOS_VALUE = '###ENDOFSTRING###'
-DEBUG = False
 
 def validate_file_extension(file_name):
   return 'wav' == file_name.split('.')[-1]
@@ -122,11 +121,6 @@ def decode(file_name, enable_message):
 
   # Arquivo de áudio em string
   string = ''.join(character_list)
-
-  if DEBUG:
-    f = open('string.txt', 'w')
-    f.write(string)
-    f.close()
 
   # Verificar se string é válida
   if string.find(EOS_VALUE)  < 0:
